@@ -8,7 +8,6 @@ const Games = require('./models/Games')
 //config json response
 app.use(express.json())
 
-
 //public folder
 app.use(express.static('public'))
 
